@@ -1,0 +1,97 @@
+body {
+    font-family: 'Manrope', sans-serif !important;
+}
+
+.register-title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #EFEFEF;
+}
+
+.auth-input {
+    border: 1px solid #3B38A3;
+
+}
+.auth-input input {
+    font-family: Manrope, sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid #3B38A3;
+    color: #EFEFEF;
+
+}
+
+.auth-input input::placeholder {
+    color: #EFEFEF;
+
+}
+
+.auth-input select {
+    border: unset;
+    background-color: #312E8C;
+    border-radius: 30px;
+    border: 1px solid #3B38A3;
+    color: #EFEFEF;
+    font-family: Manrope, sans-serif;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.auth-option {
+    border-radius: 30px;
+    border: 1px solid #3B38A3;
+    height: 40px !important;
+}
+
+.auth-option :hover {
+    border: unset;
+    border: 1px solid #3B38A3;
+    height: 40px !important;
+}
+
+.auth-link span {
+    font-size: 14px;
+    color: #D0D0DD;
+    margin-right: 10px;
+}
+.auth-link a {
+    color: #D7981F;
+}
+
+
+
+.avatar-input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3B38A3 !important;
+    margin-bottom: 20px;
+    border: 1px dashed #312E8C;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.avatar-input-section p {
+    color: #D7981F;
+}
+
+.avatar-input-section h4 {
+    color: #9ca3af;
+}
+
+#avatar label {
+    display: inline-block;
+}
+
+ label img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    padding: 5px;
+     object-fit: cover;
+}
+
+
